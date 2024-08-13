@@ -1,17 +1,15 @@
 {
   "files": {
     "main.css": "./static/css/main.3954f067.css",
-    "main.js": "./static/js/main.55d04223.js",
-    "static/js/453.f90603a2.chunk.js": "./static/js/453.f90603a2.chunk.js",
+    "main.js": "./static/js/main.6d6c4924.js",
+    "static/js/453.0c594655.chunk.js": "./static/js/453.0c594655.chunk.js",
     "static/media/flyer.jpg": "./static/media/flyer.9571bb34c09d8ea45446.jpg",
     "static/media/brochure.jpg": "./static/media/brochure.55f56f5d2cba0910b825.jpg",
     "static/media/samcon.jpg": "./static/media/samcon.545ff01aa13a9ad07aad.jpg",
     "static/media/HA.jpg": "./static/media/HA.9d44fefba4e22110d959.jpg",
     "static/media/YB.jpg": "./static/media/YB.1c891ae27c16f8e15040.jpg",
     "static/media/businesscard.jpg": "./static/media/businesscard.33bd2034df9d0bccd859.jpg",
-    "static/media/Markato.jpg": "./static/media/Markato.f58b728e2e2b7428e04f.jpg",
     "static/media/abugida.jpg": "./static/media/abugida.0c4e863eac98c1ea6d8e.jpg",
-    "static/media/HA-logo.png": "./static/media/HA-logo.88a35731049af189801a.png",
     "static/media/banner.jpg": "./static/media/banner.0067904ae7dfd83c7bb8.jpg",
     "static/media/responsive.jpg": "./static/media/responsive.7a7d80acfb2fb266d886.jpg",
     "static/media/2Go.jpg": "./static/media/2Go.74d6d490bb0c0282c00c.jpg",
@@ -30,11 +28,11 @@
     "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "./index.html",
     "main.3954f067.css.map": "./static/css/main.3954f067.css.map",
-    "main.55d04223.js.map": "./static/js/main.55d04223.js.map",
-    "453.f90603a2.chunk.js.map": "./static/js/453.f90603a2.chunk.js.map"
+    "main.6d6c4924.js.map": "./static/js/main.6d6c4924.js.map",
+    "453.0c594655.chunk.js.map": "./static/js/453.0c594655.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3954f067.css",
-    "static/js/main.55d04223.js"
+    "static/js/main.6d6c4924.js"
   ]
 }
