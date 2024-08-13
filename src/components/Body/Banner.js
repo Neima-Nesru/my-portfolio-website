@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import backgroundImage from '../../images/background.jpeg';
 import { motion } from 'framer-motion';
-import Typed from 'react-typed';
+import {Typed} from 'react-typed';
 
 const Banner = () => {
   useEffect(() => {
