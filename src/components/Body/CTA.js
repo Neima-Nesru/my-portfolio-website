@@ -8,10 +8,17 @@ const CTA = () => {
         I'm available for Internship & Freelancing.
       </h3>
 
-      <button className='bg-purple-900 px-7 py-2 rounded hover:bg-white hover:text-black hover:border-purple-900 transition duration-300'
-      >
-        Hire Me
-      </button>
+      <div className="flex justify-center mt-12">
+          <motion.a
+            href="tel:+251974436829"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.3, duration: 0.5 }}
+            className='bg-none border border-white hover:bg-purple-900 hover:border-purple-900 transition duration-300 block px-7 py-2 rounded'
+          >
+            Hire Me
+          </motion.a>
+        </div>
     </div>
   )
 }

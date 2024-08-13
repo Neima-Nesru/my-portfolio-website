@@ -3,6 +3,7 @@ import backgroundImage from '../../images/background.jpeg';
 import { motion } from 'framer-motion';
 import {Typed} from 'react-typed';
 
+
 const Banner = () => {
   useEffect(() => {
     const typed = new Typed('.element', {
