@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.ae6af748.css",
-    "main.js": "./static/js/main.0e16bf87.js",
-    "static/js/453.0c594655.chunk.js": "./static/js/453.0c594655.chunk.js",
+    "main.css": "./static/css/main.3954f067.css",
+    "main.js": "./static/js/main.55d04223.js",
+    "static/js/453.f90603a2.chunk.js": "./static/js/453.f90603a2.chunk.js",
     "static/media/flyer.jpg": "./static/media/flyer.9571bb34c09d8ea45446.jpg",
     "static/media/brochure.jpg": "./static/media/brochure.55f56f5d2cba0910b825.jpg",
     "static/media/samcon.jpg": "./static/media/samcon.545ff01aa13a9ad07aad.jpg",
@@ -16,21 +16,25 @@
     "static/media/responsive.jpg": "./static/media/responsive.7a7d80acfb2fb266d886.jpg",
     "static/media/2Go.jpg": "./static/media/2Go.74d6d490bb0c0282c00c.jpg",
     "static/media/umuju.jpg": "./static/media/umuju.31b0b5c024a542f146df.jpg",
+    "static/media/HA-logo.jpg": "./static/media/HA-logo.959a6a4fd6cf309f6a8c.jpg",
     "static/media/package.jpg": "./static/media/package.934b3c09ae5fbb2343b5.jpg",
     "static/media/foot-ordering.jpg": "./static/media/foot-ordering.a75d7f4b1dbc1f634369.jpg",
     "static/media/homerental.jpg": "./static/media/homerental.d16bca59f0beadde0a1d.jpg",
+    "static/media/Hifz-logo.jpg": "./static/media/Hifz-logo.a66757c01911080bce91.jpg",
+    "static/media/hudhud-logo.jpg": "./static/media/hudhud-logo.48528b29b14a9cc53bcc.jpg",
     "static/media/profile.jpg": "./static/media/profile.42087c0a97af86e83eaf.jpg",
+    "static/media/luxeModa-logo0.jpg": "./static/media/luxeModa-logo0.ebc59fb20063db578cee.jpg",
     "static/media/expense-tacker.jpg": "./static/media/expense-tacker.374e02f6a345596c0943.jpg",
     "static/media/background.jpeg": "./static/media/background.0011ecffa5b0ec8467da.jpeg",
     "static/media/codechat.jpg": "./static/media/codechat.5cc23ef3114a175e8e88.jpg",
     "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "./index.html",
-    "main.ae6af748.css.map": "./static/css/main.ae6af748.css.map",
-    "main.0e16bf87.js.map": "./static/js/main.0e16bf87.js.map",
-    "453.0c594655.chunk.js.map": "./static/js/453.0c594655.chunk.js.map"
+    "main.3954f067.css.map": "./static/css/main.3954f067.css.map",
+    "main.55d04223.js.map": "./static/js/main.55d04223.js.map",
+    "453.f90603a2.chunk.js.map": "./static/js/453.f90603a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae6af748.css",
-    "static/js/main.0e16bf87.js"
+    "static/css/main.3954f067.css",
+    "static/js/main.55d04223.js"
   ]
 }
