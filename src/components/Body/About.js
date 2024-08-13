@@ -16,7 +16,7 @@ const About = () => {
           <p>
             When you choose to work with me, you're not just hiring a graphic designer, website designer, or developer – you're gaining a versatile creative partner committed to realizing your vision with precision and passion.
           </p>
-          <p>
+          <p  className='mt-5'>
             With a comprehensive skill set spanning across graphic design, web design, and development, I bring a unique blend of artistic flair and technical proficiency to every project.
           </p>
           <p className='mt-5'>
