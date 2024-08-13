@@ -13,14 +13,11 @@ import UxUi from '../../images/myWorks/foot-ordering.jpg';
 import business from '../../images/myWorks/businesscard.jpg';
 import frontend from '../../images/myWorks/codechat.jpg';
 import fullstack from '../../images/myWorks/homerental.jpg';
-import toGo from '../../images/myWorks/2Go.jpg';
 import abugida from '../../images/myWorks/abugida.jpg';
 import brochure2 from '../../images/myWorks/brochure.jpg';
 import samcon from '../../images/myWorks/samcon.jpg';
 import HA from '../../images/myWorks/HA.jpg';
 import YB from '../../images/myWorks/YB.jpg';
-import HAlogo from '../../images/myWorks/HA-logo.png';
-import markato from '../../images/myWorks/Markato.jpg';
 import packageDesign from '../../images/myWorks/package.jpg';
 import umuju from '../../images/myWorks/umuju.jpg';
 import expense from '../../images/myWorks/expense-tacker.jpg';
@@ -44,7 +41,7 @@ const portfolioItems = [
   { id: 16, image: YB, title: 'Businesscard Design', category: 'graphics' },
   { id: 17, image: web, title: 'Responsive web Design', category: 'uxui' },
   { id: 18, image: umuju, title: 'Ads Design', category: 'graphics' },
-  { id: 19, image: expense, title: 'Front End web Dev\'t', category: 'web', link: 'https://neima-nesru.github.io/Expense-Tracker-App/' }
+  { id: 1, image: expense, title: 'Front End web Dev\'t', category: 'web', link: 'https://neima-nesru.github.io/Expense-Tracker-App/' }
 ];
 
 const Portfolio = () => {
@@ -97,16 +94,14 @@ const Portfolio = () => {
         </div>
       </div>
 
-      {/* Show More button is visible only on medium screens and larger */}
       {!allSkillsVisible && filteredSkills.length > visibleSkills && (
-        <div className='hidden md:block mt-12'>
+        
           <button 
             onClick={handleShowMore}
-            className="bg-purple-900 text-center font-semibold px-4 py-2 rounded text-white"
+            className="mt-12 bg-purple-900 text-center font-semibold px-4 py-2 rounded text-white"
           >
             See More Works <FaArrowRight className='text-white-800 inline ml-1'/>
           </button>
-        </div>
       )}
     </div>
   );
