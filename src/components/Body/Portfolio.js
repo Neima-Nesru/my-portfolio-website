@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { FaArrowRight } from 'react-icons/fa';
+import hudhud from '../../images/myWorks/hudhud-logo.jpg';
+import sk from '../../images/myWorks/Hifz-logo.jpg';
+import haLogo from '../../images/myWorks/HA-logo.jpg';
+import luxe from '../../images/myWorks/luxeModa-logo0.jpg';
+
 import banner from '../../images/myWorks/banner.jpg';
 import brochure from '../../images/myWorks/flyer.jpg';
 import web from '../../images/myWorks/responsive.jpg';
@@ -22,21 +27,25 @@ import umuju from '../../images/myWorks/umuju.jpg';
 import expense from '../../images/myWorks/expense-tacker.jpg';
 
 const portfolioItems = [
-  { id: 1, image: banner, title: 'Banner Design', category: 'graphics' },
-  { id: 2, image: UxUi, title: 'Web Design', category: 'uxui' },
-  { id: 3, image: frontend, title: 'Front End web Dev\'t', category: 'web' },
-  { id: 4, image: brochure, title: 'Brochure Design', category: 'graphics' },
-  { id: 5, image: business, title: 'Businesscard Design', category: 'graphics' },
-  { id: 6, image: fullstack, title: 'Fullstack web Dev\'t', category: 'web', link: 'https://github.com/Neima-Nesru/Mini_Projects/tree/main/PHP_Projects/Home%20Rental%20System' },
-  { id: 7, image: brochure2, title: 'Brochure Design', category: 'graphics' },
-  { id: 8, image: abugida, title: 'Banner Design', category: 'graphics' },
-  { id: 9, image: samcon, title: 'Businesscard Design', category: 'graphics' },
-  { id: 10, image: HA, title: 'Bussinesscard Design', category: 'graphics' },
-  { id: 11, image: packageDesign, title: 'Package Design', category: 'graphics' },
-  { id: 12, image: YB, title: 'Businesscard Design', category: 'graphics' },
-  { id: 13, image: web, title: 'Responsive web Design', category: 'uxui' },
-  { id: 14, image: umuju, title: 'Ads Design', category: 'graphics' },
-  { id: 15, image: expense, title: 'Front End web Dev\'t', category: 'web', link: 'https://neima-nesru.github.io/Expense-Tracker-App/' }
+  { id: 1, image: haLogo, title: 'Logo Design', category: 'graphics' },
+  { id: 2, image: luxe, title: 'Logo Design', category: 'graphics' },
+  { id: 3, image: sk, title: 'Logo Design', category: 'graphics' },
+  { id: 4, image: hudhud, title: 'Logo Design', category: 'graphics' },
+  { id: 5, image: banner, title: 'Banner Design', category: 'graphics' },
+  { id: 6, image: UxUi, title: 'Web Design', category: 'uxui' },
+  { id: 7, image: frontend, title: 'Front End web Dev\'t', category: 'web' },
+  { id: 8, image: brochure, title: 'Brochure Design', category: 'graphics' },
+  { id: 9, image: business, title: 'Businesscard Design', category: 'graphics' },
+  { id: 10, image: fullstack, title: 'Fullstack web Dev\'t', category: 'web', link: 'https://github.com/Neima-Nesru/Mini_Projects/tree/main/PHP_Projects/Home%20Rental%20System' },
+  { id: 11, image: brochure2, title: 'Brochure Design', category: 'graphics' },
+  { id: 12, image: abugida, title: 'Banner Design', category: 'graphics' },
+  { id: 13, image: samcon, title: 'Businesscard Design', category: 'graphics' },
+  { id: 14, image: HA, title: 'Bussinesscard Design', category: 'graphics' },
+  { id: 15, image: packageDesign, title: 'Package Design', category: 'graphics' },
+  { id: 16, image: YB, title: 'Businesscard Design', category: 'graphics' },
+  { id: 17, image: web, title: 'Responsive web Design', category: 'uxui' },
+  { id: 18, image: umuju, title: 'Ads Design', category: 'graphics' },
+  { id: 19, image: expense, title: 'Front End web Dev\'t', category: 'web', link: 'https://neima-nesru.github.io/Expense-Tracker-App/' }
 ];
 
 const Portfolio = () => {
