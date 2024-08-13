@@ -13,6 +13,7 @@ import UxUi from '../../images/myWorks/foot-ordering.jpg';
 import business from '../../images/myWorks/businesscard.jpg';
 import frontend from '../../images/myWorks/codechat.jpg';
 import fullstack from '../../images/myWorks/homerental.jpg';
+import toGo from '../../images/myWorks/2Go.jpg';
 import abugida from '../../images/myWorks/abugida.jpg';
 import brochure2 from '../../images/myWorks/brochure.jpg';
 import samcon from '../../images/myWorks/samcon.jpg';
@@ -41,7 +42,7 @@ const portfolioItems = [
   { id: 16, image: YB, title: 'Businesscard Design', category: 'graphics' },
   { id: 17, image: web, title: 'Responsive web Design', category: 'uxui' },
   { id: 18, image: umuju, title: 'Ads Design', category: 'graphics' },
-  { id: 1, image: expense, title: 'Front End web Dev\'t', category: 'web', link: 'https://neima-nesru.github.io/Expense-Tracker-App/' }
+  { id: 19, image: expense, title: 'Front End web Dev\'t', category: 'web', link: 'https://neima-nesru.github.io/Expense-Tracker-App/' }
 ];
 
 const Portfolio = () => {
@@ -72,7 +73,7 @@ const Portfolio = () => {
 
       <div className='container mx-auto'>
         <Carousel showArrows={true} infiniteLoop={true} showStatus={false} showIndicators={false} showThumbs={false} autoPlay={true} interval={5000} className='md:hidden'>
-          {filteredSkills.slice(0, visibleSkills).map(item => (
+          {filteredSkills.map(item => (
             <div key={item.id}>
               <a href={item.link} target='_blank' rel='noopener noreferrer'>
                 <img className='w-full rounded' src={item.image} alt={item.title} />
@@ -86,7 +87,7 @@ const Portfolio = () => {
           {filteredSkills.slice(0, visibleSkills).map(item => (
             <div key={item.id} className='p-5 md:w-1/3'>
               <a href={item.link} target='_blank' rel='noopener noreferrer'>
-                <img className='w-full rounded' src={item.image} alt={item.title} />
+                <img className='w-full rounded mt-12 block' src={item.image} alt={item.title} />
               </a>
               <p className='pt-10'>{item.title}</p>
             </div>
@@ -94,15 +95,17 @@ const Portfolio = () => {
         </div>
       </div>
 
-      {!allSkillsVisible && filteredSkills.length > visibleSkills && (
-        
+      {/* Button should only be visible on medium screens and up */}
+      <div className='hidden md:block'>
+        {!allSkillsVisible && filteredSkills.length > visibleSkills && (
           <button 
             onClick={handleShowMore}
             className="mt-12 bg-purple-900 text-center font-semibold px-4 py-2 rounded text-white"
           >
             See More Works <FaArrowRight className='text-white-800 inline ml-1'/>
           </button>
-      )}
+        )}
+      </div>
     </div>
   );
 }
