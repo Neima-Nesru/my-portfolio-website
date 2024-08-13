@@ -6,7 +6,6 @@ import hudhud from '../../images/myWorks/hudhud-logo.jpg';
 import sk from '../../images/myWorks/Hifz-logo.jpg';
 import haLogo from '../../images/myWorks/HA-logo.jpg';
 import luxe from '../../images/myWorks/luxeModa-logo0.jpg';
-
 import banner from '../../images/myWorks/banner.jpg';
 import brochure from '../../images/myWorks/flyer.jpg';
 import web from '../../images/myWorks/responsive.jpg';
@@ -98,14 +97,16 @@ const Portfolio = () => {
         </div>
       </div>
 
+      {/* Show More button is visible only on medium screens and larger */}
       {!allSkillsVisible && filteredSkills.length > visibleSkills && (
-        
+        <div className='hidden md:block mt-12'>
           <button 
             onClick={handleShowMore}
-            className="mt-12 bg-purple-900 text-center font-semibold px-4 py-2 rounded text-white"
+            className="bg-purple-900 text-center font-semibold px-4 py-2 rounded text-white"
           >
             See More Works <FaArrowRight className='text-white-800 inline ml-1'/>
           </button>
+        </div>
       )}
     </div>
   );
